@@ -1,0 +1,14 @@
+2026-03-12 08:01:05 INFO  app.startup - Application boot sequence initiated
+2026-03-12 08:01:07 INFO  config.loader - Configuration loaded from /etc/app/config.yml
+2026-03-12 08:01:10 INFO  db.connector - Attempting database connection
+2026-03-12 08:01:15 ERROR db.connector - Database connection refused (timeout)
+2026-03-12 08:01:18 WARNING retry.manager - Retrying database connection (attempt 1)
+2026-03-12 08:01:25 INFO  db.connector - Database connection established
+2026-03-12 09:12:44 INFO  auth.service - User login successful (user=alice)
+2026-03-12 09:45:02 WARNING memory.monitor - Memory usage exceeded 75%
+2026-03-12 10:03:11 ERROR api.gateway - Upstream API request failed (HTTP 504)
+2026-03-12 10:03:15 INFO  api.gateway - Fallback service engaged
+2026-03-12 11:30:27 INFO  scheduler - Daily cleanup job completed
+2026-03-12 12:47:59 WARNING disk.monitor - Disk usage exceeded 85% on /dev/sda1
+2026-03-12 13:05:41 ERROR file.writer - Failed to write output file (permission denied)
+2026-03-12 13:05:50 INFO  app.status - Application running with warnings
